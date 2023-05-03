@@ -1,0 +1,25 @@
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.counter-wrapper .count-wrapper {
+  margin-left: 30px;
+}
+
+.count-field {
+  min-width: 100px;
+  height: 52px;
+  background-color: var(--content-bg);
+  font-weight: var(--bold-text);
+  padding: 0 1.4rem;
+  border: 1px solid var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  border-radius: 300px;
+}

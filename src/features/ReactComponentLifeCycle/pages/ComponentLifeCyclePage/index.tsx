@@ -1,10 +1,14 @@
 import Content from "components/shared/Content";
+import Counter from "features/ReactComponentLifeCycle/components/Counter";
 
 const ComponentLifeCyclePage = () => {
   return (
-    <Content title="Button counter">
-      <p>dqcfwe</p>
-    </Content>
+    <>
+      <Content title="Button counter">
+        <p>This is basic implementation react state update</p>
+      </Content>
+      <Counter />
+    </>
   );
 };
 
