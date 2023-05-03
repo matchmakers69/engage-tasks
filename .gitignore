@@ -1,0 +1,30 @@
+
+# dependencies
+/node_modules
+/.vscode
+
+# testing
+/coverage
+
+# production
+/build
+/logs
+/pacts
+/generated
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+
+# generated
+translations.json
+test-report.xml
+
+# idea
+/.idea
+
