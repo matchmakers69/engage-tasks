@@ -1,0 +1,23 @@
+.item-row {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--dark-green);
+}
+
+.item-row .title-wrapper,
+.item-row .checkbox-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-row:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.checked-item {
+  text-decoration: line-through;
+}

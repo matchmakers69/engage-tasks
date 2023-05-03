@@ -1,12 +1,12 @@
 import Button from "components/shared/Button";
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import classes from "./Counter.module.css";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  const handleCounterState = () => {
+  const handleCounterState = useCallback(() => {
     setCount((prev) => prev + 1);
-  };
+  }, []);
   return (
     <div className={classes["counter-wrapper"]}>
       <Button onClick={handleCounterState} type="button">
