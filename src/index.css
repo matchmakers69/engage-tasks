@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:wght@300;400;500");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:wght@300;400;700");
 
 :root {
   --main-bg-color: #f3f0e4;
@@ -6,12 +6,23 @@
   --nav-links-color: #fff;
   --dark-green: #124734;
   --border-radius: 7px;
-  --no-decoration: none;
+  --no-decoration: "none";
   --link-color: #ffffff;
   --thin-text: 300;
   --regular-text: 400;
-  --bold-text: 500;
+  --bold-text: 700;
   --content-bg: #e7e1cc;
+  --bg-transparent: "transparent";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  min-height: 100%;
 }
 
 html {
