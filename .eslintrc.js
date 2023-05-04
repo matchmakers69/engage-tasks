@@ -34,6 +34,7 @@ module.exports = {
     "react/jsx-props-no-spreading": 0,
     "import/no-cycle": 0,
     "no-unused-vars": "warn",
+    "@typescript-eslint/no-non-null-assertion": 0,
     "prettier/prettier": [
       "error",
       {
