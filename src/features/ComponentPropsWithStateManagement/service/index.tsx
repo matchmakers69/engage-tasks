@@ -1,16 +1,14 @@
 import { Item } from "../types/Item";
 
-export const toggledCompleteItemsData = (array: Item[], id: number) => {
-  return [...array].map((item) => {
+export const toggleCompleteItemsData = (array: Item[], id: number): Item[] => {
+  return array.map((item) => {
     if (id === item.id) {
       return {
         ...item,
         completed: !item.completed,
       };
     } else {
-      return {
-        ...item,
-      };
+      return item;
     }
   });
 };

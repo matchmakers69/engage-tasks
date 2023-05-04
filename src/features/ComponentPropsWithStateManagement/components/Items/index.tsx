@@ -1,5 +1,4 @@
 import { Item as ItemType } from "features/ComponentPropsWithStateManagement/types/Item";
-import { ChangeEvent } from "react";
 import Item from "../Item";
 import classes from "./Items.module.css";
 
