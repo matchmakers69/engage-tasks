@@ -1,0 +1,104 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "reference": "john.smith",
+      "username": "jsmith",
+      "first_name": "John",
+      "last_name": "Smith",
+      "email": "john@example.com",
+      "job_title": "Developer",
+      "department": "Engineering",
+      "manager": "Bob Smith",
+      "manager_ref": "Bob001",
+      "location_ref": "LOC001",
+      "image": "https://app.engageesp.com/file/uploads/contact_images/user001.png",
+      "bio": "John is a developer, who likes writing integrations with APIs.",
+      "date_of_birth": "1970-01-01",
+      "start_date": "1970-01-01",
+      "pin": "abc123",
+      "created_at": "2020-12-21 18:06:20",
+      "status": 1,
+      "updated_at": "2020-12-21 18:06:20",
+      "attributes": [
+        {
+          "id": 1,
+          "title": "Phone Number",
+          "value": "0161 250 2180",
+          "type": "phone",
+          "is_visible": 1,
+          "is_editable": 0,
+          "user_managed": 0,
+          "icon": "phone",
+          "display_order": 1,
+          "template": "Phone Number",
+          "created_at": "2020-12-21 18:06:20",
+          "updated_at": "2020-12-21 18:06:20"
+        },
+        {
+          "id": 2,
+          "title": "Website",
+          "value": "https://www.engagesolutionsgroup.com",
+          "type": "url",
+          "is_visible": 1,
+          "is_editable": 1,
+          "user_managed": 1,
+          "icon": "website",
+          "display_order": 2,
+          "template": "None",
+          "created_at": "2020-12-21 18:06:20",
+          "updated_at": "2020-12-21 18:06:20"
+        }
+      ],
+      "groups": [
+        {
+          "id": 1,
+          "reference": "api-team",
+          "title": "API Team"
+        },
+        {
+          "id": 2,
+          "reference": "eng-team",
+          "title": "Engineering"
+        }
+      ],
+      "visible_to_groups": [
+        {
+          "id": 1,
+          "reference": "App Access",
+          "title": "App Access"
+        }
+      ],
+      "first_name_editable": 1,
+      "lastName_editable": 1,
+      "manager_visible": 1,
+      "date_of_birth_visible": 0,
+      "date_of_birth_editable": 0,
+      "start_date_visible": 0,
+      "start_date_editable": 1,
+      "department_visible": 1,
+      "department_editable": 0,
+      "job_title_visible": 1,
+      "job_title_editable": 0,
+      "email_visible": 0,
+      "email_editable": 1,
+      "bio_visible": 1,
+      "bio_editable": 1
+    }
+  ],
+  "links": {
+    "first": "https://api.example.com/entity?page=1",
+    "last": "https://api.example.com/entity?page=100",
+    "prev": "https://api.example.com/entity?page=49",
+    "next": "https://api.example.com/entity?page=51"
+  },
+  "meta": {
+    "current_page": 50,
+    "last_page": 100,
+    "per_page": 100,
+    "from": 501,
+    "to": 600,
+    "total": 998,
+    "path": "https://api.example.com/entity"
+  }
+}
